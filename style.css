@@ -1,0 +1,169 @@
+.body {
+    padding: 20px;
+    font-family: Helvetica;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    
+    
+    }
+    
+  .yt-icon{
+    height: 2rem;
+  }
+  
+  .icono-microfono{
+    height: 2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+  
+  }
+  
+  .top-bar{
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+    position: fixed;
+  }
+  .to-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+      height: 2rem;
+    margin-right: 40rem;
+  
+  }
+  
+  
+  .barra-busqueda{
+    margin-left: 2rem;
+  }
+  
+  
+  
+  .wrapper {
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+    
+    grid-template-areas:
+    "a b c"
+    "d e ."
+    }
+    .box {
+    background-color: #20262e;
+    color: #fff;
+    border-radius: 1px;
+    padding: 20px;
+    font-size: 14px;
+  }
+  .cajas {
+  
+  
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    
+    grid-template-areas:
+    "a b c"
+    "d e ."
+    }
+    .caja {
+    background-color: #20262e;
+    color: #fff;
+    border-radius: 1px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  
+  .a{
+    background-color: red;
+    grid-area: a;
+  }
+  
+  .imagen{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+   
+  }
+  
+  #miimagen{
+    width:100%;
+  }
+  .imagen2{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+   
+  }
+  
+  #miimagen2{
+    width:100%;
+  }
+  
+  .imagen3{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+   
+  }
+  
+  #miimagen3{
+    width:100%;
+  }
+  
+  .imagen4{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+   
+  }
+  
+  #miimagen4{
+    width:100%;
+  }
+  
+  
+  .imagen5{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+   
+  }
+  
+  #miimagen5{
+    width:100%;
+  }
+  .imagen6{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+   
+  }
+  
+  #miimagen6{
+    width:100%;
+  }
+  .imagenes{
+     display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  
+    
+    grid-template-areas:
+    "imagen imagen2 imagen5"
+    "imagen3 imagen4 imagen6";
+   
+  }
+  #video-title{
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  
